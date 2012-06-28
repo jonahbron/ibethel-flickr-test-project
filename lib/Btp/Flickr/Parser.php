@@ -1,5 +1,13 @@
 <?php
-
+/**
+ * Parse the Flickr API data
+ *
+ * This class will call a API data source for data, and parse it into an
+ * array.  The data is expected to be in JSON format.
+ *
+ * @author Jonah Dahlquist
+ * @copyright Copyright 2012 Jonah Dahlquist
+ */
 class Btp_Flickr_Parser {
 
 	private $requester;

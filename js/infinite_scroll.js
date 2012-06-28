@@ -1,3 +1,11 @@
+/*
+ * Infinite scrolling for Bethel Flickr Test Project
+ *
+ * This script will automatically load the next set of images when the user
+ * scrolls to the bottom of the page.
+ *
+ * Copyright 2012 Jonah Dahlquist
+ */
 window.current_page = 1;
 $('div.loading').hide();
 $(window).scroll(function() {

@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php
+/*
+ * Main point of entry for Bethel Flickr Test Project.
+ *
+ * Uses list_images.php to load the first set of photos from Flickr.
+ *
+ * Copyright 2012 Jonah Dahlquist
+ */
+?><!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>iBethel Flickr Test Project</title>

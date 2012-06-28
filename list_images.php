@@ -1,3 +1,10 @@
+<?php
+/*
+ * Load a set of images from the API, and render them into HTML.
+ *
+ * Copyright 2012 Jonah Dahlquist
+ */
+?>
 			<div class="row-fluid">
 <?php
 

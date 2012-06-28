@@ -1,5 +1,13 @@
 <?php
-
+/**
+ * Call the Flickr API for data
+ *
+ * This class will fetch data from the Flickr API.  If it has cached the data
+ * already within a certain time period, it will load from the cache instead.
+ *
+ * @author Jonah Dahlquist
+ * @copyright Copyright 2012 Jonah Dahlquist
+ */
 class Btp_Flickr_Request_Http {
 
 	private $api_key;
